@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 通过访问http://localhost:8182/hi?name=zhidanfeng测试
+ */
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
